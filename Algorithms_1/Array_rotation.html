@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array_rotation</title>
+</head>
+<body>
+<script type="text/javascript">
+	function rotateArray(array, k){
+		while(k--){
+			var temp = array.shift();
+			array.push(temp);
+		}
+	}
+	var players = ["Shade" , "Ayo", "Nike", "Tola"];
+	rotateArray(players, 5);
+	document.write(players);
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vowels</title>
+</head>
+<body>
+<input type="text" id="num" placeholder="enter a text"/>
+	<input type="submit" value="check" id="comput" size="14" onClick="ab_check();"/>
+	<script type="text/javascript">
+		function ab_check(){
+		var ab = document.getElementById('num').value;
+		document.write(ab.replace(/[^aeiou]/g, "").length);
+}
+	</script>
+</body>
+</html>

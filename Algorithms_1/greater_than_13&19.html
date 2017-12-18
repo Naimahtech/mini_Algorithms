@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment</title>
+</head>
+<body>
+
+	<input type="text" id="num" placeholder="enter a number"/>
+	<input type="submit" value="13" id="comput" size="14" onClick="myFunction();"/>
+	<input type="submit" value="19" size="14" onClick="Functional();"/>
+
+	<script type="text/javascript">
+		function myFunction(){
+		var nums = document.getElementById('num').value;
+		if(nums>13){
+			var diff = 2*(nums-13);
+		}
+		else{
+			var diff = nums-13;
+		}
+		document.write(diff);
+	}
+
+	function Functional(){
+		var numba = document.getElementById('num').value;
+		if(numba >19){
+			var diffce = 3*(numba-19);
+		}
+		else{
+			var diffce = numba-19;
+		}
+		document.write(diffce);
+	}
+
+
+	</script>
+
+</body>
+</html>
